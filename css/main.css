@@ -15,6 +15,9 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+}
 
 header li{
     display: inline;
@@ -59,6 +62,7 @@ section h2,
 .articles article h3{
     margin-top: 8px;
     margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .articles article a {
@@ -93,13 +97,29 @@ section h2 {
 }
 
 #esportes .articles article a {
-    background-color: rgba(10, 200, 60, 0.5);
+    background-color: rgba(150, 200, 60, 0.5);
 }
 
 #economia {
-    background-color: rgba(204, 87, 20, 0.3);
+    background-color: rgba(210, 80, 20, 0.3);
 }
 
 #economia .articles article a{
     background-color: rgba(210, 80, 20, 0.5);
+}
+
+#entreterimento{
+    background-color: rgba(20, 20, 200, 0.3)
+}
+
+#entreterimento .articles article a{
+    background-color: rgba(20, 20, 200, 0.5);
+}
+
+#tecnologia{
+    background-color: rgba(10, 230, 220, 0.3)
+}
+
+#tecnologia .articles article a{
+    background-color: rgba(10, 230, 220, 0.5)
 }
