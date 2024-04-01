@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika Negative", sans-serif;
+}
+
+body {
+    background-image: url(./bg-image.jpg);
+    background-color: #044b5b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    border: 2px solid rgba(36,60,100,0.9);
+    position: absolute;
+    backdrop-filter: blur(30px);
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.container h1 {
+    padding: 0 50px;
+    margin-bottom: 16px;
+    color: aliceblue;
+}
+
+hr {
+    margin: 10px 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-campo, 
+.submit-button,
+.reset-buttom {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 6px;
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.form-campo input, 
+.submit-button button,
+.reset-buttom button {
+    border: 2px solid rgba(36,60,100,0.9);
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: transparent;
+    color: aliceblue;
+    text-align: center;
+}
+
+#email {
+    text-transform: none;
+}
+
+.campo-maior {
+    width: 66%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.submit-button button,
+.reset-buttom button {
+    background-color: rgb(28,140,188);
+    margin-top: 30px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.submit-button button:hover,
+.reset-buttom button:hover {
+    background-color: rgb(184,156,175);
+}
+
