@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const linkElem = document.querySelector('#link');
     const avatarElem = document.querySelector('#avatar');
 
-    const apiKey = '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';
+    const apiKey = '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';
     const url = 'https://api.github.com/user';
     
     const options = {
